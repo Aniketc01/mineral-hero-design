@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { File, FlowChart, Calculator, Database } from 'lucide-react';
+import { File, GitBranch, Calculator, Database } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const ProblemSolutionSection = () => {
@@ -26,7 +26,7 @@ const ProblemSolutionSection = () => {
             <ul className="space-y-6">
               {[
                 {
-                  icon: <FlowChart className="text-mineral-brown" />,
+                  icon: <GitBranch className="text-mineral-brown" />,
                   text: "Manually drawing flowchart shapes and copying over information"
                 },
                 {
@@ -63,7 +63,7 @@ const ProblemSolutionSection = () => {
                   text: "Smart \"file-to-runsheet\" links that take you to the information you need – stop digging through folders and files"
                 },
                 {
-                  icon: <FlowChart className="text-mineral-brown" />,
+                  icon: <GitBranch className="text-mineral-brown" />,
                   text: "Smart \"runsheet-to-flowchart\" shape generation – Never draw a box or rewrite a date again"
                 },
                 {
