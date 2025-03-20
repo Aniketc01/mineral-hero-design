@@ -9,6 +9,15 @@ const ProblemSolutionSection = () => {
   return (
     <section className="py-20 bg-gradient-to-b from-mineral-light to-white">
       <div className="max-w-6xl mx-auto px-6 md:px-8">
+        {/* Logo */}
+        <div className="flex justify-center mb-12">
+          <img 
+            src="/lovable-uploads/2ee75ed5-bc8c-4432-9065-2bb83454db6f.png" 
+            alt="TitleMine Logo"
+            className="h-20 md:h-24"
+          />
+        </div>
+        
         {/* Problem Statement */}
         <div className="text-center mb-16 max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-mineral-dark mb-8 leading-tight">
