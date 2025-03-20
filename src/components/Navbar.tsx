@@ -28,7 +28,13 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <div className="flex items-center">
-          <span className="text-xl font-bold text-mineral-brown tracking-tight">MineralTitles</span>
+          <a href="/" className="flex items-center">
+            <img 
+              src="/lovable-uploads/2ee75ed5-bc8c-4432-9065-2bb83454db6f.png" 
+              alt="TitleMine Logo"
+              className="h-10 md:h-12"
+            />
+          </a>
         </div>
         
         <div className="hidden md:flex items-center space-x-2">

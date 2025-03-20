@@ -60,11 +60,11 @@ const ProblemSolutionSection = () => {
               {[
                 {
                   icon: <File className="text-mineral-brown" />,
-                  text: "Smart "file-to-runsheet" links that take you to the information you need – stop digging through folders and files"
+                  text: "Smart \"file-to-runsheet\" links that take you to the information you need – stop digging through folders and files"
                 },
                 {
                   icon: <FlowChart className="text-mineral-brown" />,
-                  text: "Smart "runsheet-to-flowchart" shape generation – Never draw a box or rewrite a date again"
+                  text: "Smart \"runsheet-to-flowchart\" shape generation – Never draw a box or rewrite a date again"
                 },
                 {
                   icon: <Calculator className="text-mineral-brown" />,
